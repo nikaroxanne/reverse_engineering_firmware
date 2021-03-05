@@ -17,10 +17,12 @@ WRITE = 2
 RDSR = 5
 WRSR = 1
 
+###
+###  sample addresses and sample patch_data to be used for testing purposes
+### 
+addresses = [0x20000, 0x1337]
 
-addresses = [0xc, 0xbce]
-
-##patch_data = [[0b, 1b] ,[00,21,49,f2,49,f8,00,21,9f,a0,49,f2,45,f8,9e,48]]
+patch_data = [[0x64, 0x61, 0x74, 0x73], [0x43, 0x41, 0x54, 0x53]]
 
 
 ###############################################################################
